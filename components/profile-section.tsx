@@ -85,8 +85,8 @@ export default function ProfileSection() {
           <p className="text-sm text-gray-600 text-center mb-2">{profileInfo.role}</p>
           <div className="flex items-center justify-center text-sm mb-2">
             <span className="inline-flex items-center px-2 py-1 rounded-full bg-white/50">
-              <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-              Available for work
+              <span className="w-2 h-2 bg-red-500 rounded-full mr-2"></span>
+              Busy in some work
             </span>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function ProfileSection() {
 
           {/* Company Tags */}
           <div className="mb-4">
-            <h3 className="text-sm font-medium mb-2">Companies</h3>
+            <h3 className="text-sm font-medium mb-2">Worked with</h3>
             <div className="flex flex-wrap gap-2">
               <span className="px-3 py-1.5 rounded-full bg-purple-100 text-purple-700 font-medium text-sm border border-purple-200 shadow-sm">
                 AdagradAI

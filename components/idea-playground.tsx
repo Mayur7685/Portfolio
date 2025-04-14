@@ -19,7 +19,7 @@ export default function IdeaPlayground() {
   const [ideas, setIdeas] = useState<Idea[]>([
     {
       id: 1,
-      text: "Build an AI-powered food complaint agent",
+      text: "Building AI-Web3 human sandwitch on Zora",
       color: "yellow",
       rotation: -2,
       position: { x: 0, y: 0 },
@@ -27,7 +27,7 @@ export default function IdeaPlayground() {
     },
     {
       id: 2,
-      text: "Create a decentralized identity solution",
+      text: "Anonymous calendar sharing agent",
       color: "blue",
       rotation: 3,
       position: { x: 0, y: 0 },
@@ -35,7 +35,7 @@ export default function IdeaPlayground() {
     },
     {
       id: 3,
-      text: "Develop a VR training platform",
+      text: "Merchslot to distribute merch without stampede ",
       color: "green",
       rotation: -1,
       position: { x: 0, y: 0 },
@@ -43,7 +43,7 @@ export default function IdeaPlayground() {
     },
     {
       id: 4,
-      text: "Build a blockchain-based voting system",
+      text: "Terms and conditions flow agent ",
       color: "pink",
       rotation: 2,
       position: { x: 0, y: 0 },

@@ -11,7 +11,7 @@ export default function AboutSection() {
     { icon: <User className="w-5 h-5" />, label: "Name", value: "Mayur Asodara" },
     { icon: <Briefcase className="w-5 h-5" />, label: "Role", value: "AI & Web3 Developer" },
     { icon: <MapPin className="w-5 h-5" />, label: "Location", value: "India" },
-    { icon: <Calendar className="w-5 h-5" />, label: "Experience", value: "5+ Years" },
+    { icon: <Calendar className="w-5 h-5" />, label: "Experience", value: "3+ Years" },
   ]
 
   return (

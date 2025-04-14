@@ -100,14 +100,8 @@ export default function HackathonCarousel() {
                     </div>
                   </div>
 
-                  {hackathon.certificate && (
-                    <a
-                      href={hackathon.certificate}
-                      className="inline-flex items-center gap-1 bg-white/70 text-gray-800 px-2 py-1 rounded-full text-xs transition-colors hover:bg-white"
-                    >
-                      <Trophy size={12} />
-                      <span>View Certificate</span>
-                    </a>
+                  {hackathon.description && (
+                    <p className="text-xs text-gray-600">{hackathon.description}</p>
                   )}
                 </div>
               </div>

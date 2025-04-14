@@ -31,7 +31,7 @@ export default function Toolbox() {
         {categories.map((category, index) => (
           <div key={category.name} className="space-y-1.5">
             <div
-              className={`flex items-center justify-between p-2 rounded-xl ${category.color} text-white backdrop-blur-sm border border-white/50 cursor-pointer transition-all duration-200 hover:shadow-lg`}
+              className={`flex items-center justify-between p-2 rounded-xl ${category.color} text-black backdrop-blur-sm border border-white/50 cursor-pointer transition-all duration-200 hover:shadow-lg`}
               onClick={() => toggleCategory(index)}
               onMouseEnter={() => handleMouseEnter(category.name)}
             >
@@ -46,7 +46,7 @@ export default function Toolbox() {
                 {category.tools.map((tool) => (
                   <div
                     key={tool}
-                    className={`p-1.5 rounded-lg ${category.color} text-white backdrop-blur-sm border border-white/30 ml-3 transform transition-all duration-200 hover:translate-x-1`}
+                    className={`p-1.5 rounded-lg ${category.color} text-grey backdrop-blur-sm border border-white/30 ml-3 transform transition-all duration-200 hover:translate-x-1`}
                   >
                     <span className="text-xs">{tool}</span>
                   </div>

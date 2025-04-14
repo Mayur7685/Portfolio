@@ -63,7 +63,7 @@ export default function SocialLinks() {
             </div>
             <span className="text-xs font-medium">{link.name}</span>
 
-            {activeLink === SocialLinks.id && (
+            {activeLink === link.id && (
               <StickyNote>
                 <h3 className="font-bold">{SocialLinks.name}</h3>
                 <p>Connect with me on {SocialLinks.name}</p>
